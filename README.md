@@ -1,4 +1,4 @@
-# CausalLiterature
+# Causal Text Mining - Literature Review
 This repository documents and summarizes publications relevant to the extraction of causal relations from text. We split publications into four categories: (1) Methodology, (2) Dataset, (3) Survey, and (4) Theory. Pull requests or suggestions are welcome.
 
 ### 1. Methodology
