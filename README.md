@@ -1,5 +1,5 @@
 # CausalLiterature
-This repository documents and summarizes publications relevant to the extraction of causal relations from text. We split publications into four categories: (1) Methodology, (2) Dataset, (3) Survey, and (4) Theory.
+This repository documents and summarizes publications relevant to the extraction of causal relations from text. We split publications into four categories: (1) Methodology, (2) Dataset, (3) Survey, and (4) Theory. Pull requests or suggestions are welcome.
 
 ### 1. Methodology
 | Title | Author(s) | Year | Summary | Links |
@@ -11,8 +11,16 @@ This repository documents and summarizes publications relevant to the extraction
 
 
 ### 3. Survey
-
-
+| Title | Author(s) | Year | Summary | Links |
+| --- | --- | --- | --- | --- |
+| Automatic Extraction of Causal Relations from Natural Language Texts: A Comprehensive Survey | Nabiha Asghar | 2016 | *TBA* | [PDF](https://arxiv.org/abs/1605.07895) | 
+| Identification of Causal Dependencies by using Natural Language Processing - A Survey | Erika Nazaruka | 2019 | *TBA* | [PDF](https://dl.acm.org/doi/10.5220/0007842706030613) | 
+| A Review of Dataset and Labeling Methods for Causality Extraction | Jinghang Xu, Wanli Zuo, Shining Liang, Xianglin Zuo | 2020 | *TBA* | [PDF](https://www.aclweb.org/anthology/2020.coling-main.133/) |
+| A Survey on Extraction of Causal Relations from Natural Language Text | Jie Yang, Soyeon Caren Han, Josiah Poon | 2021 | *TBA* | [PDF](https://arxiv.org/abs/2101.06426) | 
 
 ### 4. Theory
 
+
+
+### A. Remarks
+*TBA*: To be added
