@@ -9,7 +9,11 @@ Pull requests or suggestions are welcome.
 | Identifying predictive causal factors from news streams | Ananth Balashankar, Sunandan Chakraborty, Samuel Fraiberger, Lakshminarayanan Subramanian | 2019 | Predictive Causal Graph (PCG) measures word occurences' influence on future words. This method improves prediction error of stock price time series and allows extraction of causal pairs with temporal predictive causality, potentially useful for hypothesis testing. | [PDF](https://www.aclweb.org/anthology/D19-1238/) |
 
 ### 2. Dataset
-
+| Title | Author(s) | Year | Summary | Links |
+| --- | --- | --- | --- | --- |
+| Causal-TimeBank | Paramita Mirza, Rachele Sprugnoli, Sara Tonelli and Manuela Speranza | 2014 | *TBA* | [PDF](https://www.aclweb.org/anthology/W14-0702/), [Source](https://github.com/dhfbk/Causal-TimeBank) |
+| BECauSE Corpus 2.0 | Jesse Dunietz, Lori Levin, Jaime Carbonell | 2017 | *TBA* | [PDF](https://www.aclweb.org/anthology/W17-0812/), [Source](https://github.com/duncanka/BECAUSE) |
+| SCITE | Zhaoning Li, Qi Li, Xiaotian Zou, Jiangtao Ren | 2021 | *TBA* | [PDF](https://arxiv.org/abs/1904.07629), [Source](https://github.com/Das-Boot/scite) |
 
 
 ### 3. Survey
