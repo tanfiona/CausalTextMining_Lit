@@ -32,3 +32,15 @@ Pull requests or suggestions are welcome.
 ### A. Remarks
 * *TBA*: To be added 
 * If you have any concerns or questions, feel free to contact me at [tan.f@u.nus.edu].
+
+
+```
+@misc{FionaCausalLit2021,
+  author = {Tan, Fiona Anting},
+  title = {Causal Text Mining Literature Review},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/tanfiona/CausalTextMining_Lit}}
+}
+```
