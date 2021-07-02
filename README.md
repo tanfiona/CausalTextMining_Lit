@@ -3,6 +3,7 @@ This repository documents and summarizes publications relevant to the extraction
 <br>
 Pull requests or suggestions are welcome.
 
+
 ### 1. Methodology
 | Title | Author(s) | Year | Summary | Links |
 | --- | --- | --- | --- | --- |
@@ -10,6 +11,7 @@ Pull requests or suggestions are welcome.
 | Identifying predictive causal factors from news streams | Ananth Balashankar, Sunandan Chakraborty, Samuel Fraiberger, Lakshminarayanan Subramanian | 2019 | Predictive Causal Graph (PCG) measures word occurences' influence on future words. This method improves prediction error of stock price time series and allows extraction of causal pairs with temporal predictive causality, potentially useful for hypothesis testing. | [PDF](https://www.aclweb.org/anthology/D19-1238/) | Identifying predictive causal factors from news streams | Ananth Balashankar, Sunandan Chakraborty, Samuel Fraiberger, Lakshminarayanan Subramanian | 2019 | Predictive Causal Graph (PCG) measures word occurences' influence on future words. This method improves prediction error of stock price time series and allows extraction of causal pairs with temporal predictive causality, potentially useful for hypothesis testing. | [PDF](https://www.aclweb.org/anthology/D19-1238/) |
 | Conditional Causal Relationships between Emotions and Causes in Texts | Xinhong Chen, Qing Li, Jianping Wang | 2020 | This paper proposes a method for the detection of a pair of emotion and cause clauses conditional on the context of the claims (1 indicates a document is conditional, 0 indicates it is not). They also manually labelled a working dataset of 561 conditional and 1524 non-conditional documents, and generate context-type and emotion-type negative examples that results in non-causal documents. For their model, they feed word embedding vectors into a BiLSTM model and encoded through concatenation, another BiLSTM or attention-based method. Two prediction heads, one for prediction with context and another for predicting causal label directly, are aggregated by prioritising direct predictions. Aggregation method improves F1 score across all three encoding methods, of which, BiLSTM was the best performing. Their results are sensitive to dataset label distribution. Note: Corpus seems to be in Chinese only.| [PDF](https://www.aclweb.org/anthology/2020.emnlp-main.252/), [Source](https://github.com/mark-xhchen/Conditional-ECPE) |
 | CauseNet: Towards a Causality Graph Extracted from the Web. | Stefan Heindorf and Yan Scholten, Henning Wachsmuth, Axel-Cyrille Ngonga Ngomo, Martin Potthast | 2020 | This paper is the first to construct a large-scale knowledge graph of causal relations from the web. They collected over 11 million causal relations with an estimated extraction precision of 83% from ClueWeb12 web crawl and Wikipedia articles. Their extraction method is: (1) Using causal relations as seeds, they identified popular linguistic patterns that represent relations, filtering the pattern based onn support>=2. (2) They use the pattern to identify more sentences in corpus. (3) Subsequently, they train a BiLSTM-CRF sequence tagger to tag BIO labels to identify cause-effect noun-phrases, to construct graph. Their work excludes study of causal statements that are: implicit, cross-sentences, domain-specific and negated. | [PDF](https://papers.dice-research.org/2020/CIKM-20/heindorf_2020a_public.pdf), [Source](https://github.com/causenet-org/CIKM-20) |
+
 
 ### 2. Annotated Dataset
 | Title | Author(s) | Year | Summary | Links |
@@ -27,8 +29,22 @@ Pull requests or suggestions are welcome.
 | A Review of Dataset and Labeling Methods for Causality Extraction | Jinghang Xu, Wanli Zuo, Shining Liang, Xianglin Zuo | 2020 | *TBA* | [PDF](https://www.aclweb.org/anthology/2020.coling-main.133/) |
 | A Survey on Extraction of Causal Relations from Natural Language Text | Jie Yang, Soyeon Caren Han, Josiah Poon | 2021 | *TBA* | [PDF](https://arxiv.org/abs/2101.06426) | 
 
-### 4. Theory
 
+### 4. Theory
+| Title | Author(s) | Year | Summary | Links |
+| --- | --- | --- | --- | --- |
+| Causality - 2nd Ed | Judea Pearl | 2009 | *TBA* | [PDF](https://www.cambridge.org/core/books/causality/B0046844FAE10CBF274D4ACBDAEB5F5B) |
+
+
+### 5. Talks/Lectures/Videos
+Links to relevant lectures and talks:
+* Judea Pearl (2012) on ["The Mechanization of Causal Inference"](https://www.youtube.com/watch?v=iNm4nFBFmvo&ab_channel=AssociationforComputingMachinery%28ACM%29)
+* Judea Pearl (2012) on ["The Mathematics of Cause and Effect"](https://www.youtube.com/watch?v=IiXvpPyhMw8&ab_channel=UBC_CS)
+* Judea Pearl (2013) on ["The Mathematics of Causal Inference, with Reflections on Machine Learning and the Logic of Science"](https://www.youtube.com/watch?v=zHjdd--W6o4&ab_channel=SimonsInstitute)
+* David Sontag (2019) on ["Causal Inference"](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s897-machine-learning-for-healthcare-spring-2019/lecture-videos/lecture-14-causal-inference-part-1/) for the module "Machine Learning for Healthcare"
+* Elias Bareinboim (2019) on ["Causal Data Science: A general framework for data fusion and causal inference"](https://www.youtube.com/watch?v=dUsokjG4DHc&ab_channel=CausalAI)
+* Elias Bareinboim (2020) on ["Causal Reinforcement Learning"](https://crl.causalai.net/)
+* Brady Neal's [Youtube channel on "Causal Inference"](https://www.youtube.com/channel/UCbOJ2eEdvf2wOPrAmA72Gzg)
 
 
 ### A. Remarks
