@@ -38,12 +38,14 @@ Pull requests or suggestions are welcome.
 
 ### 5. Talks/Lectures/Videos
 Links to relevant lectures and talks:
-* Judea Pearl (2012) on ["The Mechanization of Causal Inference"](https://www.youtube.com/watch?v=iNm4nFBFmvo&ab_channel=AssociationforComputingMachinery%28ACM%29)
-* Judea Pearl (2012) on ["The Mathematics of Cause and Effect"](https://www.youtube.com/watch?v=IiXvpPyhMw8&ab_channel=UBC_CS)
-* Judea Pearl (2013) on ["The Mathematics of Causal Inference, with Reflections on Machine Learning and the Logic of Science"](https://www.youtube.com/watch?v=zHjdd--W6o4&ab_channel=SimonsInstitute)
+* Judea Pearl (2012) on ["The Mechanization of Causal Inference"](https://youtu.be/iNm4nFBFmvo)
+* Judea Pearl (2012) on ["The Mathematics of Cause and Effect"](https://youtu.be/IiXvpPyhMw8)
+* Judea Pearl (2013) on ["The Mathematics of Causal Inference, with Reflections on Machine Learning and the Logic of Science"](https://youtu.be/zHjdd--W6o4)
+* Judea Pearl & Team (2013) on ["Causes and Counterfactuals: Concepts, Principles and Tools"](https://youtu.be/d-aVKnV3bBw)
 * David Sontag (2019) on ["Causal Inference"](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s897-machine-learning-for-healthcare-spring-2019/lecture-videos/lecture-14-causal-inference-part-1/) for the module "Machine Learning for Healthcare"
 * Elias Bareinboim (2019) on ["Causal Data Science: A general framework for data fusion and causal inference"](https://www.youtube.com/watch?v=dUsokjG4DHc&ab_channel=CausalAI)
 * Elias Bareinboim (2020) on ["Causal Reinforcement Learning"](https://crl.causalai.net/)
+* Elias Bareinboim (2020) on ["On the Causal Foundations of Artificial Intelligence (Explainability & Decision-Making)"](https://youtu.be/fNuMHDrh6AY)
 * Brady Neal's [Youtube channel on "Causal Inference"](https://www.youtube.com/channel/UCbOJ2eEdvf2wOPrAmA72Gzg)
 
 
