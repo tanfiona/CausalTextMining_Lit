@@ -21,6 +21,7 @@ Pull requests or suggestions are welcome.
 | BECauSE Corpus 2.0 | Jesse Dunietz, Lori Levin, Jaime Carbonell | 2017 | *TBA* | [PDF](https://www.aclweb.org/anthology/W17-0812/), [Source](https://github.com/duncanka/BECAUSE) |
 | Penn Discourse TreeBank (PDTB) | Bonnie Webber, Rashmi Prasad, Alan Lee, Aravind Joshi | 2019 | Improvement of explicit, implicit, AltLex relations which include causal relations. There are also added sense relations annotations which include temoporal, contingency and comparison relations that are relevant.| [PDF](https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf), [Source](https://catalog.ldc.upenn.edu/LDC2019T05) |
 | SCITE | Zhaoning Li, Qi Li, Xiaotian Zou, Jiangtao Ren | 2021 | *TBA* | [PDF](https://arxiv.org/abs/1904.07629), [Source](https://github.com/Das-Boot/scite) |
+| CausalQG | Katherine Stasaski, Manav Rathod, Tony Tu, Yunfang Xiao, Marti A. Hearst | 2021 | The authors use linguistic patterns to extract causal sentences from text (2-3 sentence span) and evaluate a portion of their dataset using crowdworkers. Next, they use ProphetNet to generate both cause and effect questions and evaluate against automatic and human methods. | [PDF](https://aclanthology.org/2021.bea-1.17.pdf), [Source](https://github.com/kstats/CausalQG) |
 
 
 ### 3. Survey
