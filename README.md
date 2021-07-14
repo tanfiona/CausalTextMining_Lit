@@ -18,11 +18,14 @@ Pull requests or suggestions are welcome.
 | Title | Author(s) | Year | Summary | Example | Links |
 | --- | --- | --- | --- | --- | --- |
 | Causal-TimeBank | Paramita Mirza, Rachele Sprugnoli, Sara Tonelli and Manuela Speranza | 2014 | *TBA* | relType, source_id, target_id | [PDF](https://www.aclweb.org/anthology/W14-0702/), [Source](https://github.com/dhfbk/Causal-TimeBank) |
-| AltLex | Christopher Hidey, Kathleen McKeown | 2016 | Using parallel texts from English Wikipedia and Simple Wikipedia, the authors experimented with various automatic methods to classify causal statements, with their best using bootstrapping. Other efforts involve KL-divergence to tie sentence pairs that have the same causal implication. They also use FrameNet, WordNet and VerbNet features. | (causal)label, englishPrevWords, englishAltlex, englishCurrWords| [PDF](https://aclanthology.org/P16-1135.pdf), [Source](https://github.com/chridey/altlex) |
-| BECauSE Corpus 2.0 | Jesse Dunietz, Lori Levin, Jaime Carbonell | 2017 | *TBA* | Type (Consequence, motivation, purpose); Direction (Facilitate, Inhitbit); Relations (Temporal, correlation, etc.) | [PDF](https://www.aclweb.org/anthology/W17-0812/), [Source](https://github.com/duncanka/BECAUSE) |
+| AltLex | Christopher Hidey, Kathleen McKeown | 2016 | Using parallel texts from English Wikipedia and Simple Wikipedia, the authors experimented with various automatic methods to classify causal statements, with their best using bootstrapping. Other efforts involve KL-divergence to tie sentence pairs that have the same causal implication. They also use FrameNet, WordNet and VerbNet features. | label, englishPrevWords, englishAltlex, englishCurrWords| [PDF](https://aclanthology.org/P16-1135.pdf), [Source](https://github.com/chridey/altlex) |
+| BECauSE Corpus 2.0 | Jesse Dunietz, Lori Levin, Jaime Carbonell | 2017 | *TBA* | Type (Consequence, motivation, purpose); Direction (Facilitate, Inhitbit); Relations (Temporal, correlation, etc.) | [PDF](https://www.aclweb.org/anthology/W17-0812/), [Source](https://github.com/duncanka/BECAUSE), [Source2](https://docs.google.com/spreadsheets/d/1oGmrdLIruo32okPcFSCERupOuepiPwSD96H_WVTq10E/edit#gid=0) |
 | Penn Discourse TreeBank (PDTB) | Bonnie Webber, Rashmi Prasad, Alan Lee, Aravind Joshi | 2019 | Improvement of explicit, implicit, AltLex relations which include causal relations. There are also added sense relations annotations which include temoporal, contingency and comparison relations that are relevant. | *TBA* | [PDF](https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf), [Source](https://catalog.ldc.upenn.edu/LDC2019T05) |
-| SCITE | Zhaoning Li, Qi Li, Xiaotian Zou, Jiangtao Ren | 2021 | *TBA* | | [PDF](https://arxiv.org/abs/1904.07629), [Source](https://github.com/Das-Boot/scite) |
-| CausalQG | Katherine Stasaski, Manav Rathod, Tony Tu, Yunfang Xiao, Marti A. Hearst | 2021 | The authors use linguistic patterns to extract causal sentences from text (2-3 sentence span) and evaluate a portion of their dataset using crowdworkers. Next, they use ProphetNet to generate both cause and effect questions and evaluate against automatic and human methods. | *TBA* | [PDF](https://aclanthology.org/2021.bea-1.17.pdf), [Source](https://github.com/kstats/CausalQG) |
+| SemEval-2020 Task 5 | Xiaoyu Yang, Stephen Obadinma, Huasha Zhao, Qiong Zhang, Stan Matwin, Xiaodan Zhu | 2020 | Modelling Causal Reasoning in Language: Detecting Counterfactuals; Subtask-1: Recognizing Counterfactual Statements (RCS), determine whether a given sentence is counterfactual or not.; Subtask-2: Detecting Antecedent and Consequent (DAC) -- Extract the antecedent and consequent part in a given counterfactual sentence. | label, antecedent span, consequent span | [PDF](https://aclanthology.org/2020.semeval-1.40/), [Source](https://zenodo.org/record/3932442#.YO7vk-gzbik) |
+| FinCausal | Dominique Mariko, Hanna Abi-Akl, Estelle Labidurie, Stephane Durfort, Hugues De Mazancourt, Mahmoud El-Haj | 2020/2021 | Task 1: To identify causal sentences, Task 2: To identify cause-effect word spans. Data source is financial news provided by Qwam, human-annotated. | label, cause span, effect span | [PDF](https://aclanthology.org/2020.fnp-1.3/), [Source](http://wp.lancs.ac.uk/cfie/fincausal2021/) |
+| SCITE | Zhaoning Li, Qi Li, Xiaotian Zou, Jiangtao Ren | 2021 | *TBA* | label, cause ent, effect ent | [PDF](https://arxiv.org/abs/1904.07629), [Source](https://github.com/Das-Boot/scite) |
+| CausalQG | Katherine Stasaski, Manav Rathod, Tony Tu, Yunfang Xiao, Marti A. Hearst | 2021 | The authors use linguistic patterns to extract causal sentences from text (2-3 sentence span) and evaluate a portion of their dataset using crowdworkers. Next, they use ProphetNet to generate both cause and effect questions and evaluate against automatic and human methods. | cause span, effect span | [PDF](https://aclanthology.org/2021.bea-1.17.pdf), [Source](https://github.com/kstats/CausalQG) |
+
 
 
 ### 3. Survey
@@ -55,6 +58,12 @@ Links to relevant lectures and talks:
 
 ### A. Remarks
 * *TBA*: To be added 
+* Goal of Causal Text Mining: 
+1. Classify causal sentences/documents
+2. Tag causal entities (and relations)
+3. Coreference resolution of entities (and relations)
+4. Building causal graph
+5. Query graph
 * If you have any concerns or questions, feel free to contact me at [tan.f@u.nus.edu].
 
 
