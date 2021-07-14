@@ -15,14 +15,14 @@ Pull requests or suggestions are welcome.
 
 
 ### 2. Annotated Dataset
-| Title | Author(s) | Year | Summary | Links |
-| --- | --- | --- | --- | --- |
-| Causal-TimeBank | Paramita Mirza, Rachele Sprugnoli, Sara Tonelli and Manuela Speranza | 2014 | *TBA* | [PDF](https://www.aclweb.org/anthology/W14-0702/), [Source](https://github.com/dhfbk/Causal-TimeBank) |
-| AltLex | Christopher Hidey, Kathleen McKeown | 2016 | Using parallel texts from English Wikipedia and Simple Wikipedia, the authors experimented with various automatic methods to classify causal statements, with their best using bootstrapping. Other efforts involve KL-divergence to tie sentence pairs that have the same causal implication. They also use FrameNet, WordNet and VerbNet features. | [PDF](https://aclanthology.org/P16-1135.pdf), [Source](https://github.com/chridey/altlex) |
-| BECauSE Corpus 2.0 | Jesse Dunietz, Lori Levin, Jaime Carbonell | 2017 | *TBA* | [PDF](https://www.aclweb.org/anthology/W17-0812/), [Source](https://github.com/duncanka/BECAUSE) |
-| Penn Discourse TreeBank (PDTB) | Bonnie Webber, Rashmi Prasad, Alan Lee, Aravind Joshi | 2019 | Improvement of explicit, implicit, AltLex relations which include causal relations. There are also added sense relations annotations which include temoporal, contingency and comparison relations that are relevant.| [PDF](https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf), [Source](https://catalog.ldc.upenn.edu/LDC2019T05) |
-| SCITE | Zhaoning Li, Qi Li, Xiaotian Zou, Jiangtao Ren | 2021 | *TBA* | [PDF](https://arxiv.org/abs/1904.07629), [Source](https://github.com/Das-Boot/scite) |
-| CausalQG | Katherine Stasaski, Manav Rathod, Tony Tu, Yunfang Xiao, Marti A. Hearst | 2021 | The authors use linguistic patterns to extract causal sentences from text (2-3 sentence span) and evaluate a portion of their dataset using crowdworkers. Next, they use ProphetNet to generate both cause and effect questions and evaluate against automatic and human methods. | [PDF](https://aclanthology.org/2021.bea-1.17.pdf), [Source](https://github.com/kstats/CausalQG) |
+| Title | Author(s) | Year | Summary | Example | Links |
+| --- | --- | --- | --- | --- | --- |
+| Causal-TimeBank | Paramita Mirza, Rachele Sprugnoli, Sara Tonelli and Manuela Speranza | 2014 | *TBA* | relType, source_id, target_id | [PDF](https://www.aclweb.org/anthology/W14-0702/), [Source](https://github.com/dhfbk/Causal-TimeBank) |
+| AltLex | Christopher Hidey, Kathleen McKeown | 2016 | Using parallel texts from English Wikipedia and Simple Wikipedia, the authors experimented with various automatic methods to classify causal statements, with their best using bootstrapping. Other efforts involve KL-divergence to tie sentence pairs that have the same causal implication. They also use FrameNet, WordNet and VerbNet features. | (causal)label, englishPrevWords, englishAltlex, englishCurrWords| [PDF](https://aclanthology.org/P16-1135.pdf), [Source](https://github.com/chridey/altlex) |
+| BECauSE Corpus 2.0 | Jesse Dunietz, Lori Levin, Jaime Carbonell | 2017 | *TBA* | Type (Consequence, motivation, purpose); Direction (Facilitate, Inhitbit); Relations (Temporal, correlation, etc.) | [PDF](https://www.aclweb.org/anthology/W17-0812/), [Source](https://github.com/duncanka/BECAUSE) |
+| Penn Discourse TreeBank (PDTB) | Bonnie Webber, Rashmi Prasad, Alan Lee, Aravind Joshi | 2019 | Improvement of explicit, implicit, AltLex relations which include causal relations. There are also added sense relations annotations which include temoporal, contingency and comparison relations that are relevant. | *TBA* | [PDF](https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf), [Source](https://catalog.ldc.upenn.edu/LDC2019T05) |
+| SCITE | Zhaoning Li, Qi Li, Xiaotian Zou, Jiangtao Ren | 2021 | *TBA* | | [PDF](https://arxiv.org/abs/1904.07629), [Source](https://github.com/Das-Boot/scite) |
+| CausalQG | Katherine Stasaski, Manav Rathod, Tony Tu, Yunfang Xiao, Marti A. Hearst | 2021 | The authors use linguistic patterns to extract causal sentences from text (2-3 sentence span) and evaluate a portion of their dataset using crowdworkers. Next, they use ProphetNet to generate both cause and effect questions and evaluate against automatic and human methods. | *TBA* | [PDF](https://aclanthology.org/2021.bea-1.17.pdf), [Source](https://github.com/kstats/CausalQG) |
 
 
 ### 3. Survey
