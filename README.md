@@ -17,6 +17,8 @@ Pull requests or suggestions are welcome.
 ### 2. Annotated Dataset
 | Title | Author(s) | Year | Summary | Example | Links |
 | --- | --- | --- | --- | --- | --- |
+| ACE 2005 Multilingual Training Corpus (Partial) | - | 2005 | One type of relations| - | [PDF](), [Source](https://catalog.ldc.upenn.edu/LDC2006T06) |
+| SemEval-2010 Task 8 (Partial) | Iris Hendrickx, Su Nam Kim, Zornitsa Kozareva, Preslav Nakov, Diarmuid Ó Séaghdha, Sebastian Padó, Marco Pennacchiotti, Lorenza Romano, Stan Szpakowicz | 2010 | One type of relations: "Cause-Effect (CE). An event or object leads to aneffect." 1331/10717 examples | e1, e2, relation label. "E.g.: those cancers were caused by radiation exposures" | [PDF](https://aclanthology.org/S10-1006.pdf), [Source]() |
 | Causal-TimeBank | Paramita Mirza, Rachele Sprugnoli, Sara Tonelli and Manuela Speranza | 2014 | *TBA* | relType, source_id, target_id | [PDF](https://www.aclweb.org/anthology/W14-0702/), [Source](https://github.com/dhfbk/Causal-TimeBank) |
 | CaTeRS | Nasrin Mostafazadeh, Alyson Grealish, Nathanael Chambers, James Allen and Lucy Vanderwende | 2016 | *TBA* | *TBA* | [PDF](https://aclanthology.org/W16-1007/), [Source](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) |
 | CATENA | Paramita Mirza, Sara Tonelli | 2016 | *TBA* | *TBA* | [PDF](https://aclanthology.org/C16-1007/), [Source](https://github.com/paramitamirza/CATENA) |
