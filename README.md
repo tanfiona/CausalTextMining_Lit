@@ -17,7 +17,6 @@ Pull requests or suggestions are welcome.
 ### 2. Annotated Dataset
 | Title | Author(s) | Year | Summary | Example | Links |
 | --- | --- | --- | --- | --- | --- |
-| ACE 2005 Multilingual Training Corpus (Partial) | - | 2005 | One type of relations| - | [PDF](), [Source](https://catalog.ldc.upenn.edu/LDC2006T06) |
 | SemEval-2010 Task 8 (Partial) | Iris Hendrickx, Su Nam Kim, Zornitsa Kozareva, Preslav Nakov, Diarmuid Ó Séaghdha, Sebastian Padó, Marco Pennacchiotti, Lorenza Romano, Stan Szpakowicz | 2010 | One type of relations: "Cause-Effect (CE). An event or object leads to aneffect." 1331/10717 examples | e1, e2, relation label. "E.g.: those cancers were caused by radiation exposures" | [PDF](https://aclanthology.org/S10-1006.pdf), [Source]() |
 | Causal-TimeBank | Paramita Mirza, Rachele Sprugnoli, Sara Tonelli and Manuela Speranza | 2014 | *TBA* | relType, source_id, target_id | [PDF](https://www.aclweb.org/anthology/W14-0702/), [Source](https://github.com/dhfbk/Causal-TimeBank) |
 | CaTeRS | Nasrin Mostafazadeh, Alyson Grealish, Nathanael Chambers, James Allen and Lucy Vanderwende | 2016 | *TBA* | *TBA* | [PDF](https://aclanthology.org/W16-1007/), [Source](https://www.cs.rochester.edu/nlp/rocstories/CaTeRS/) |
@@ -30,6 +29,8 @@ Pull requests or suggestions are welcome.
 | SCITE | Zhaoning Li, Qi Li, Xiaotian Zou, Jiangtao Ren | 2021 | *TBA* | label, cause ent, effect ent | [PDF](https://arxiv.org/abs/1904.07629), [Source](https://github.com/Das-Boot/scite) |
 | CausalQG | Katherine Stasaski, Manav Rathod, Tony Tu, Yunfang Xiao, Marti A. Hearst | 2021 | The authors use linguistic patterns to extract causal sentences from text (2-3 sentence span) and evaluate a portion of their dataset using crowdworkers. Next, they use ProphetNet to generate both cause and effect questions and evaluate against automatic and human methods. | cause span, effect span | [PDF](https://aclanthology.org/2021.bea-1.17.pdf), [Source](https://github.com/kstats/CausalQG) |
 | DefeasibleNLI | Rachel Rudinger, Vered Shwartz, Jena D. Hwang, Chandra Bhagavatula, Maxwell Forbes, Ronan Le Bras, Noah A. Smith, Yejin Choi | 2020 | Authors introduce a reasoning corpus that studies inferences (X is a bird, therefore X flies) that can be weakened or strengthened given new evidence." Human annotated corpus. | Premise, hypothesis, weakener, strengthener sentences. | [PDF](https://aclanthology.org/2020.findings-emnlp.418.pdf), [Source](https://github.com/rudinger/defeasible-nli) |
+
+Similar to SemEval2010-Task8, there are many other relevant relation extraction corpora: ACE 2004/ 2005, TACRED, FewRel, NYT. See [NLPProgress-RE](http://nlpprogress.com/english/relationship_extraction.html) for more information.
 
 ### 3. Survey
 | Title | Author(s) | Year | Summary | Links |
